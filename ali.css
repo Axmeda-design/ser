@@ -1,0 +1,50 @@
+@media(max-width:500px) {
+#contact-details {
+    flex-direction: column;
+}
+#contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+}
+#contact-details .map {
+    width: 100%;
+
+}
+#form-details {
+   
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+}
+#form-details form {
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+#form-details form input, #form-details form textarea {
+    width: 90%;
+  
+}
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+#cart-add{
+   flex-direction: column;
+}
+#cao {
+    width: 100%;
+
+}
+.subtotal{
+    width: 86%;
+    padding: 20px;
+  
+}
+#cart table td{
+    font-size: 20px;
+}
+
+}
